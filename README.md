@@ -2,6 +2,9 @@
 
 A code generation library for creating MQTT-connected React components in Next.js applications.
 
+WARNING: You must only push values to the MQTT queue!, pure floats, ints, or bools
+No need to wrap the value in a json like { value: 1 }, just send 1. 
+
 ## Installation
 
 First, create a new Next.js application:
