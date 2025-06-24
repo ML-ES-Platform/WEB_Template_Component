@@ -137,7 +137,7 @@ Each configuration file supports the following properties:
 - `pollingInterval`: Polling interval in milliseconds
 - `label`: Display label for the component
 - `unit`: Unit of measurement (optional)
-- `icon`: Icon name for the component display
+- `icon`: Icon name for the component display (Lucide)
 - `setpoint`: Target value for deviation components (optional)
 - `maxDeviation`: Maximum allowed deviation (optional)
 
